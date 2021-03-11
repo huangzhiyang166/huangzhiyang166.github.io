@@ -1,46 +1,45 @@
-# 应聘：web前端开发
+# 个人信息
  - 黄志阳/男/1987 
- - 本科/福建工程学院/文化传播系/广告学 
- - 工作年限：7年
- - Github：http://github.com/huangzhiyang166
+ - 本科/福建工程学院 
+ - 工作年限：8年
  - 期望职位：web前端开发工程师
  - 期望城市：厦门、福州
- - 联系：18305917866 / 348845730@qq.com
+ - 联系：18305917866 / huangzhiyang166@gmail.com
+ - 爱好：coding、台球、象棋
+
+
+ # 做过的事
+ - 主导公司前端技术选型、架构设计、前端工程化流程、代码开发规范、CI/CD流
+ - 带领前端团队(6-10人)完成前后端分离转型、去jq化等老项目重构、优化核心项目打包体积及打包速度
+ - 利用git hook配合服务端打包，规范前端各项目上线流程，提升前端资源缓存命中率
+ - 使用webpack、gulp等前端工程化工具，开发了用于静态资源迁移的命令行工具，基于vue-cli定制了多个适用于公司项目的脚手架、实现在基于yarn workspace+lerna的monorepo项目代码管理模式
+ - 熟练pc web、移动端h5，hybrid app、Electron桌面客户端开发
+ - 深入理解Vue响应式原理，使用Vue2\Vue3技术栈，基于Vue3 Composition api封装通用业务逻辑，提升开发效率
+ - 对页面布局、HTML语义化有深入理解，熟练使用flex弹性布局、grid布局
+ - 熟练掌握js语言特性，对闭包、原型、作用域链、面向对象、继承等有较深入理解
+ - 熟练使用es6新特性，promise/async&await异步流程控制、Map、Set、Proxy、Symbol
+ - 熟悉react生态，熟练使用React-Hooks、函数式组件
+ - 熟练掌握浏览器缓存机制并以此优化前端各项目的页面加载速度，提升页面性能体验，熟悉页面性能优化
+ - 熟练掌握常见的web攻防安全，xss、csrf、sql注入等
+ - 熟练使用fiddler网络抓包、本地代码调试线上bug
+ - 熟悉Koa，了解Egg.js、nest.js
+
  
 # 工作经历
-## 2011-2012  自由职业
-开发淘宝装修市场的店铺模板，主要用到淘宝kissy框架，第一次有了前端模块化的概念
-
-## 2013-2014  福建西米网络(创业公司)
-- 负责公司内部系统及对外产品的前端研发 
-- 对接兴业证券，开发内嵌h5页面的移动客户端app，基于jq+backboneJs 
 
 ## 2014至今   福建票付通信息科技
 - 做为公司web前端负责人，主导公司前端架构、开发流程、团队成员日常任务分配协调  、code review、技术选型、项目进度把控、项目部署交付
 - 深度参与公司各产品线(移动端h5、小程序、pc中管后台、桌面软件)的前端架构设计，紧密联系市场、产品、设计、后端等各方推进前端各产品线的需求迭代更新
 
+## 2013-2014  福建西米网络(创业公司)
+- 负责公司内部系统及对外产品的前端研发 
+- 兴业证券外包，开发内嵌h5页面的移动客户端app，基于jq+backboneJs 
+
+## 2011-2012  自由职业
+开发淘宝装修市场的店铺模板，基于淘宝kissy框架的早期组件化方案，编写html+css+js店铺模板
+
+
 # 主要项目经历
-## 票付通sass平台(pc端) 
-前期主要是基于jq开发的多页，后期逐步过渡到基于webpack+glup工程化的vue/react单页应用 
--  vue + vuex + vue-router + element-ui + axios 
-- react + react-redux + mobx + react hook + antd ui + axios 
-
-## 票付通h5微平台、微商城 
-### 项目定位
-基于微信公众号的h5应用，为中小供应商、分销商提供的一套面向C端的在线票务销售及活动营销系统
-
-### 主要功能
-- 在线票务销售
-- 在线活动营销(秒杀、拼团、砍价、红包等)
-- 后台提供一套店铺自定义装修系统(可配置多个装修组件)，通过拖放装修组件的形式，为中小B端的微商城提供店铺自定义装修功能
-
-### 技术现实
-- 基于vue的单页应用(路由总数90+)
-- 基于vue-cli3脚手架+gulp+webpack实现开发、测试、部署上线等前端自动化、工程化
-- vuex做全局状态管理
-- vue-router+token+本地存储实现前端鉴权(页面级)
-- vant-ui做ui基础库
-- 组件封装，公用业务逻辑抽取封装成公共组件或hooks(基于vue-compositon)：鉴权组件(按钮级)、svg spring图标、海报合成、useLoading、useResquest、useList..
 
 ## 云票务系统(基于electron的桌面应用) 
 ### 项目定位
@@ -58,29 +57,45 @@
 
 ### 技术实现
 - 底层基于electron-vue脚手架做整个项目自动化构建
-- vue+vuex+vue-router做单页应用、element-ui做ui底层框架、基于axios做数据服务层、基于mockjs、easyMock等做开发阶段的数据mock服务
-- 基于zrender现实在线选座
-- 基于rxjs实现门票打印出票等复杂前后端数据交互逻辑
+- Vue+Vuex+Vue-router做单页应用、Element-ui做ui底层框架、基于axios做数据服务层、基于webpack-api-mock&Mockjs做开发阶段的数据mock服务
+- 基于Zrender Canvas实现在线选座
 - 基于electron-updater实现自动更新
+- 基于websocket连接c#同学提供的硬件服务实现门票打印、读取身份证信息、调用摄像头人脸拍照及上传云端人脸比对
+- 基于LowDB本地JSON数据库实现离线断网售检票
+
+### 技术难点
+- 整个应用体量大、路由多、重交互、业务逻辑复杂。底层架构务必深思熟虑，做到高可扩展。对公共业务逻辑的封装抽离粒度的把控是个挑战
+- 用户操作必须有据可查，操作日志上传云端与写入本地并行
+- 特殊场景下做到缓存网络请求及复用缓存
+- 应用全局数据流管理，Vuex store采用module分模块及按需导入
 
 
-# 技能清单
-- scss、less、flex布局
-- dom、bom、浏览器事件机制(事件委托)、js面向对象、继承 
-- es6、promise/async&await异步流程控制、typescript
-- vue、vuex、vue-router、element-ui、vant-ui
-- react(hoc、render props、hooks )、redux、mobx、antd
-- fiddler网络抓包、本地代码调试线上bug
-- nodejs应用(koa.js、egg.js、nest.js)
-- electron桌面app
+## 票付通h5微平台、微商城 
+### 项目定位
+基于微信公众号的h5应用，为中小供应商、分销商提供的一套面向C端的在线票务销售及活动营销系统
 
-# 近期
-- CI/CD平台的探索研究，jenkins+gitlab+harbor+kubernetes持续交付工具链的实践与运用
-- docker微服务架构
+### 主要功能
+- 在线票务销售
+- 在线活动营销(秒杀、拼团、砍价、红包等)
+- 后台提供一套店铺自定义装修系统(可配置多个装修组件)，通过拖放装修组件的形式，为中小B端的微商城提供店铺自定义装修功能
 
-# 联系
-- QQ  348845730
-- TEL 18305917866
+### 技术现实
+- 基于vue的单页应用(路由总数90+)
+- 基于vue-cli3脚手架+gulp+webpack实现开发、测试、部署上线等前端自动化、工程化
+- vuex做全局状态管理，Event Bus跨组件通信
+- vue-router+token+本地存储实现前端鉴权(页面级)
+- vant-ui做ui基础库
+- 组件封装，Vue Composition api公用业务逻辑封装
+- 基于Canvas图片合成、压缩
+- 图标采用Iconfont + SVG Sprite
+
+
+## 票付通sass后台管理系统(pc端) 
+前期主要是基于jq开发的多页，后期逐步过渡到基于webpack+glup工程化的Vue单页应用 
+- vue + vuex + vue-router + element-ui + axios 
 
 
 
+
+# 致谢
+感谢您花时间浏览我的简历，期待有机会能与您共事！
